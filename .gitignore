@@ -1,0 +1,44 @@
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+.env
+.env.*
+
+# Jupyter and notebook cache
+.ipynb_checkpoints/
+
+# MacOS + VSCode + PyCharm
+.DS_Store
+.vscode/
+.idea/
+
+# Logs and cache
+*.log
+*.cache
+*.pytest_cache/
+*.coverage
+
+# Flask debug files
+instance/
+*.db
+
+# Pip environment files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Output files or temp
+*.bak
+*.tmp
+*.swp
+
+# Deploy-specific
+*.zip
+*.tar.gz
+dist/
+build/
